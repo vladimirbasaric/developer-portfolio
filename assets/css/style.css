@@ -1367,18 +1367,3 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
-
-
-.bg-video {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  /* z-index: -1; */
-  /* opacity: .5; */
-  overflow: hidden;
-  /* object-fit: fill; */
-  object-fit: cover;
-} 
