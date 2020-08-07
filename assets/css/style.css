@@ -695,10 +695,10 @@ a:hover {
   }
 }
 
-/* .intro-single .breadcrumb {
+.intro-single .breadcrumb {
   background-color: transparent;
   color: #0078ff;
-} */
+}
 
 .intro-single .breadcrumb .breadcrumb-item:before {
   color: #cde1f8;
