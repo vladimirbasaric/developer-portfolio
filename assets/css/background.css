@@ -11,6 +11,9 @@
   overflow: hidden;
   /* object-fit: fill; */
   object-fit: cover;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+
 } 
 
 /* .content {
