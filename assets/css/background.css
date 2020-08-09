@@ -11,6 +11,7 @@
   overflow: hidden;
   /* object-fit: fill; */
   object-fit: cover;
+  transform: translate3d(0,0,0);
 } 
 
 /* .content {
