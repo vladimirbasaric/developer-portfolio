@@ -8,7 +8,7 @@
   width: 100%;
   z-index: -1;
   /* opacity: .5; */
-  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
   /* object-fit: fill; */
   object-fit: cover;
 } 
