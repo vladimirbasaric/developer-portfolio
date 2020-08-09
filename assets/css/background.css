@@ -8,7 +8,7 @@
   width: 100vw;
   z-index: -1;
   /* opacity: .5; */
-  /* overflow: hidden; */
+  overflow: hidden;
   /* object-fit: fill; */
   object-fit: cover;
 } 

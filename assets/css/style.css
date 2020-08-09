@@ -76,11 +76,11 @@ a:hover {
   background-position: center center;
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
   }
-} */
+}
 
 .overlay-mf {
   background-color: #0078ff;
