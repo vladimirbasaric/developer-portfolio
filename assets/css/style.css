@@ -2,8 +2,24 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+}
+
+.color-1 {
+  color: #0b0c10;
+}
+.color-2 {
+  color: #1f2833;
+}
+.color-3 {
+  color: #c5c6c7;
+}
+.color-4 {
+  color: #66fcf1;
+}
+.color-5 {
+  color: #45a29e;
 }
 
 h1,
@@ -12,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #66fcf1;
 }
 
 a {
@@ -168,7 +184,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #45a29e;
   width: 100px;
   bottom: -12px;
 }
@@ -181,7 +197,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: rgba(31, 40, 51, 0.85);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -308,8 +324,8 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
-  color: #fff;
+  background: #45a29e;
+  color: #c5c6c7;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -342,7 +358,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #1f2833;
 }
 
 #preloader:before {
@@ -350,8 +366,8 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border: 6px solid #c5c6c7;
+  border-top: 6px solid #45a29e;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -453,7 +469,7 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link, .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #66fcf1;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -494,52 +510,52 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #45a29e;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #45a29e;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #45a29e;
 }
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #1f2833;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #45a29e;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #66fcf1;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #66fcf1;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #66fcf1;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #66fcf1;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #45a29e;
 }
 
 .navbar-b .navbar-brand {
@@ -566,13 +582,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #0078ff;
+  background-color: #66fcf1;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #0078ff;
+  background-color: #66fcf1;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -587,7 +603,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: #66fcf1;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -630,7 +646,7 @@ a:hover {
 .intro {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: #c5c6c7;
 }
 
 .intro .intro-content {
@@ -639,7 +655,7 @@ a:hover {
 }
 
 .intro .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
   left: 0px;
@@ -650,7 +666,7 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: #fff;
+  color: #c5c6c7;
   font-weight: 600;
   font-size: 3rem;
 }
