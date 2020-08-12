@@ -163,10 +163,15 @@ a:hover {
   color: #c5c6c7;
 }
 
+.subtitle-b {
+  color: #c5c6c7;
+  font-size: 1.4rem;
+}
+
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #45a29e;
   margin: 0 auto;
 }
 
@@ -418,6 +423,12 @@ a:hover {
   background-color: #66fcf1;
   color: #0b0c10;
   transition: all 500ms ease;
+}
+
+.button:active {
+  background-color: #c5c6c7;
+  color: #0b0c10;
+  /* transition: all 500ms ease; */
 }
 
 .button-a {
