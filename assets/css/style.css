@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #66fcf1;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -47,7 +47,7 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: #66fcf1;
 }
 
 .color-d {
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #66fcf1;
 }
 
 .overlay-mf {
@@ -216,7 +216,7 @@ a:hover {
 
 /*------/ Socials /------*/
 .socials {
-  padding: 1.5rem 0;
+  padding: 3.5rem 0 0 0;
 }
 
 .socials ul li {
@@ -230,14 +230,15 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #c5c6c7;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #45a29e;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #66fcf1;
   transition: all 500ms ease;
 }
 
@@ -250,11 +251,14 @@ a:hover {
 
 .list-ico {
   line-height: 2;
+  font-size: 1.2rem;
+
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #45a29e;
   margin-right: 10px;
+  font-size: 1.6rem;
 }
 
 /*------/ Ico Circle /------*/
@@ -266,7 +270,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #66fcf1;
   display: block;
 }
 
@@ -311,7 +315,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #66fcf1;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -730,7 +734,7 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #66fcf1;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -781,7 +785,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #66fcf1;
 }
 
 /*--------------------------------------------------------------
@@ -797,7 +801,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #66fcf1;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -949,7 +953,7 @@ a:hover {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0078ff !important;
+  background-color: #66fcf1 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1036,7 +1040,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
+  color: #66fcf1;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -1135,7 +1139,7 @@ a:hover {
 }
 
 .php-email-form input::focus, .php-email-form textarea::focus {
-  background-color: #0078ff;
+  background-color: #66fcf1;
 }
 
 .php-email-form input {
@@ -1148,7 +1152,7 @@ a:hover {
 }
 
 .php-email-form button[type="submit"] {
-  background: #0078ff;
+  background: #45a29e;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1156,7 +1160,8 @@ a:hover {
 }
 
 .php-email-form button[type="submit"]:hover {
-  background: #3393ff;
+  background: #66fcf1;
+  color: #0b0c10;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1234,7 +1239,7 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 
 /*--------------------------------------------------------------
@@ -1273,7 +1278,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #66fcf1;
   margin-top: 1rem;
 }
 
@@ -1283,7 +1288,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #0078ff;
+  color: #66fcf1;
 }
 
 .blog-wrapper .post-meta ul span {
@@ -1291,7 +1296,7 @@ a:hover {
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #66fcf1;
   padding: 18px;
   font-style: italic;
 }
@@ -1328,7 +1333,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: #66fcf1;
 }
 
 .box-comments .list-comments span {
@@ -1344,7 +1349,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #66fcf1;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1361,7 +1366,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: #66fcf1;
   top: 20px;
 }
 
@@ -1372,8 +1377,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #66fcf1;
+  border-color: #66fcf1;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1381,7 +1386,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #66fcf1;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -1396,9 +1401,9 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #fff;
+  color: #c5c6c7;
   padding: 25px 0;
-  background: #0062d3;
+  background: #1f2833;
 }
 
 footer .copyright {
