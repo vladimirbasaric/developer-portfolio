@@ -871,7 +871,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #1f2833;
 }
 
 .work-box:hover img {
@@ -893,21 +893,21 @@ a:hover {
 
 .work-content .w-more {
   color: #4e4e4e;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #fff;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
-  float: right;
+  color: #c5c6c7;
+  /* float: right; */
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #c5c6c7;
 }
 
 .work-content .w-like .num-like {
@@ -915,7 +915,7 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /*--------------------------------------------------------------
