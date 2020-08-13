@@ -714,7 +714,7 @@ a:hover {
 }
 
 .intro-single {
-  height: 350px;
+  height: 250px;
 }
 
 .intro-single .intro-content {
@@ -1402,7 +1402,7 @@ a:hover {
 footer {
   text-align: center;
   color: #c5c6c7;
-  padding: 25px 0;
+  padding: 15px 0;
   background: #1f2833;
 }
 
