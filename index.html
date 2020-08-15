@@ -19,6 +19,7 @@
   <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -80,15 +81,17 @@
             <!-- Your browser is not suported! -->
           </video>
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">Vladimir Basarić</h1>
+          <h1 class="intro-title mb-4" data-aos="fade-down" data-aos-delay="100">Vladimir Basarić</h1>
           <p class="intro-subtitle"><span class="text-slider-items">Web Developer,Frontend Developer,Programmer,Transport Engineer</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">PROJECTS</a></p> -->
-          <a href="#work" class="neon-btn js-scroll">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span> projects
-          </a>   
+          <div data-aos="fade-up" data-aos-delay="100">
+            <a href="#work" class="neon-btn js-scroll">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span> projects
+            </a>   
+          </div>
         </div>
       </div>
     </div>
@@ -98,7 +101,7 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
@@ -139,7 +142,7 @@
 
     <!-- ======= Services Section ======= -->
     <section id="service" class="services-mf pt-5 route">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
@@ -253,7 +256,7 @@
     <div class="section-counter paralax-mf bg-image">
       <!-- dodaj div ispod za boju pozadine -->
       <!-- <div class="overlay-mf"></div> -->
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="row">
           <div class="col-sm-3 col-lg-3 m-0 p-0">
             <div class="counter-box">
@@ -285,7 +288,7 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
@@ -300,7 +303,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="work-box">
               <!-- ako hoces link do galerije ubaci div u zakomentarisan a element -->
               <!-- <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
@@ -326,7 +329,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
             <div class="work-box">
               <!-- ako hoces link do galerije ubaci div u zakomentarisan a element -->
               <!-- <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
@@ -352,7 +355,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="work-box">
               <!-- ako hoces link do galerije ubaci div u zakomentarisan a element -->
               <!-- <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
@@ -378,7 +381,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="work-box">
               <!-- ako hoces link do galerije ubaci div u zakomentarisan a element -->
               <!-- <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
@@ -404,7 +407,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
             <div class="work-box">
               <!-- ako hoces link do galerije ubaci div u zakomentarisan a element -->
               <!-- <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
@@ -430,7 +433,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="work-box">
               <!-- ako hoces link do galerije ubaci div u zakomentarisan a element -->
               <!-- <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
@@ -621,7 +624,7 @@
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route">
       <!-- dodaj div ispod za boju pozadine -->
       <!-- <div class="overlay-mf"></div> -->
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center pb-0 mb-0">
@@ -635,7 +638,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="zoom-in">
           <div class="col-sm-12">
             <div class="contact-mf">
               <div  class="box-shadow-full">
@@ -761,6 +764,7 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
